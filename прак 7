@@ -1,0 +1,25 @@
+#1
+
+# num = 36
+# bits = 8
+# binary = format(num, f"0{bits}b")
+# print(binary)
+
+#2
+
+# num = 13
+# bits = 8
+# dv = format(num, f"0{bits-1}b")
+# dv_1 = "1" + dv
+# print(dv_1)
+
+#3
+
+# direct = "00011101"
+# inverse_code = "".join(str(int(not int(b))) for b in direct)
+# print(inverse_code)
+
+#4
+# inverse_code = "11110010"
+# twos_complement = format(int(inverse_code, 2) + 1, "08b")
+# print(twos_complement)
